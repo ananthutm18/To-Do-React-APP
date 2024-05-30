@@ -4,8 +4,19 @@
   "description": "Its a to do application developed as a simple  react project at Broto type",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
   },
   "author": "Ananthu TM",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.12.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.2.1",
+    "react-router-dom": "^6.23.1"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
 }

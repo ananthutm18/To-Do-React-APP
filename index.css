@@ -1,0 +1,60 @@
+.Mainhead{
+    color: green;
+    text-align: center;
+}
+.from-container{
+    margin-left: 25%;
+    width: 50%;
+    background-color: rgb(22, 109, 109);
+    display: block;
+    border-radius: 5px;
+    
+}
+.from-container form{
+    width: 80%;
+    padding: 40px;
+    margin-left: 70px;
+
+
+    
+}
+.from-container form button{
+    margin-left: 220px;
+    margin-top: 10px;
+}
+.todoList{
+    display: flex;
+    width: 100%;   
+    justify-content: center;
+   
+    margin-left: 30px;
+}
+.listbutt{
+    border: none;
+    margin-left: 10px;
+    background-color: wheat;
+    width: 90px;
+    height: 2%;
+    border-radius: 5px;
+}
+.conte{
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(37, 41, 69);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.conte p{
+    margin-left: 20px;
+}
+.icons{
+    display: flex;
+}
+.completed{
+    text-decoration: line-through;
+}
